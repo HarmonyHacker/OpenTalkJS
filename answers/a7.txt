@@ -1,0 +1,139 @@
+I can provide you with an example of code documentation in various formats. Here are a few examples:
+
+**XML Documentation**
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <title>Example Document</title>
+    <author>John Doe</author>
+    <description>This is an example document.</description>
+    <sections>
+        <section title="Section 1">
+            <paragraph firstLine="This is the first paragraph." />
+            <paragraph secondLine="This is the second line." />
+        </section>
+        <section title="Section 2">
+            <paragraph firstLine="This is another paragraph." />
+            <paragraph secondLine="This is another line of text." />
+        </section>
+    </sections>
+</doc>
+```
+
+**Markdown Documentation**
+
+```markdown
+# Example Document
+
+## Table of Contents
+
+* [Introduction](#introduction)
+* [Section 1](#section-1)
+* [Section 2](#section-2)
+
+## Example Section
+
+This is an example section.
+
+## Paragraphs
+
+### First Line
+This is the first paragraph.
+
+#### Second Line
+This is another line of text.
+
+### Third Line
+This is a third line of text.
+```
+
+**API Documentation**
+
+```markdown
+# Examples API
+
+## Endpoints
+
+* `GET /users`: Retrieve all users
+* `POST /users`: Create a new user
+* `PUT /users/:id`: Update an existing user
+* `DELETE /users/:id`: Delete a user
+
+## Request Body
+
+* `name`: The name of the user.
+* `email`: The email address of the user.
+
+## Response
+
+* `201 Created`: A new user was created successfully.
+* `404 Not Found`: The requested resource could not be found.
+```
+
+**Java Documentation**
+
+```java
+/**
+ * This is an example Java class.
+ */
+public class Example {
+    /**
+     * This is an example method.
+     *
+     * @param args Command-line arguments.
+     */
+    public void myMethod(int args[]) {
+        // Code to execute when the method is called
+    }
+}
+```
+
+**Python Documentation**
+
+```python
+"""
+This is an example Python module.
+
+Author: John Doe
+
+Description:
+    This is an example Python module that provides some useful functions and classes.
+"""
+
+from typing import List, Dict
+
+def add_numbers(a: int, b: int) -> int:
+    """Returns the sum of two numbers."""
+    return a + b
+
+
+class User:
+    def __init__(self, name: str):
+        self.name = name
+```
+
+**C Documentation**
+
+```c
+/**
+ * This is an example C function.
+ */
+
+#include <stdio.h>
+
+int add_numbers(int a, int b) {
+    // Code to execute when the function is called
+}
+
+/**
+ * This is an example C struct.
+ */
+typedef struct {
+    char* name;
+} User;
+
+User user = { NULL };
+```
+
+I hope this helps! Let me know if you have any specific requirements or needs.

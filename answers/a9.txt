@@ -1,0 +1,37 @@
+Here's a sample bug report:
+
+**Title:** [Insert bug title, e.g. "Favicon not displaying correctly"]
+
+**Description:**
+
+As I was browsing the website, I noticed that the favicon (the small icon in the browser's address bar) did not display correctly. It was not showing up properly on my device.
+
+**Steps to Reproduce:**
+
+1. Open [Insert URL] in a web browser.
+2. Notice that the favicon is not displaying correctly.
+
+**Environment Details:**
+
+* Operating System: [Insert OS, e.g. Windows 10]
+* Browser: [Insert browser name, e.g. Google Chrome]
+* Version: [Insert version number]
+
+**Expected Results:**
+
+The favicon should be displayed correctly on the website.
+
+**Actual Results:**
+
+[Insert actual results, e.g. "The favicon is not displaying at all"]
+
+**Screenshots or Videos:**
+
+If possible, please attach screenshots or videos that demonstrate the issue.
+
+**Priority:** [Insert priority level, e.g. High, Medium, Low]
+
+**Category:** [Insert category, e.g. "Web Application", "Mobile App", etc.]
+
+**Reported By:** [Your name]
+**Date Reported:** [Today's date]

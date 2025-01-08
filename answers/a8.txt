@@ -1,0 +1,157 @@
+Here is an example of API documentation using YAML:
+
+```yml
+---
+# API Endpoints
+
+### User Endpoints
+
+#### GET /users
+
+*   **Description:** Retrieve a list of all users.
+*   **Request Body:**
+    *   None
+*   **Response:**
+
+    ```json
+{
+  "code": 200,
+  "message": "Users retrieved successfully",
+  "data": [
+    {
+      "id": 1,
+      "name": "John Doe"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe"
+    }
+  ]
+}
+```
+
+#### GET /users/:id
+
+*   **Description:** Retrieve a single user by ID.
+*   **Request Body:**
+    *   None
+*   **Response:**
+
+    ```json
+{
+  "code": 200,
+  "message": "User retrieved successfully",
+  "data": {
+    "id": 1,
+    "name": "John Doe"
+  }
+}
+```
+
+#### POST /users
+
+*   **Description:** Create a new user.
+*   **Request Body:**
+
+    ```json
+{
+  "name": "New User"
+}
+```
+*   **Response:**
+
+    ```
+{
+  "code": 201,
+  "message": "User created successfully",
+  "data": {
+    "id": 3,
+    "name": "New User"
+  }
+}
+```
+
+#### PATCH /users/:id
+
+*   **Description:** Update an existing user.
+*   **Request Body:**
+    *   None
+*   **Response:**
+
+    ```
+{
+  "code": 200,
+  "message": "User updated successfully",
+  "data": {
+    "name": "Updated User"
+  }
+}
+```
+
+#### DELETE /users/:id
+
+*   **Description:** Delete a user.
+*   **Request Body:**
+    *   None
+*   **Response:**
+
+    ```
+{
+  "code": 204,
+  "message": "User deleted successfully",
+  "data": null
+}
+```
+
+### Postman API Documentation:
+
+#### GET /users
+
+*   Method: GET
+*   URL: `https://api.example.com/users`
+*   Response:
+    *   status code: 200 (OK)
+    *   headers: None
+    *   body: JSON response with list of users
+*   Request Body: None
+*   Request Options: None
+
+#### GET /users/:id
+
+*   Method: GET
+*   URL: `https://api.example.com/users/{id}`
+*   Response:
+    *   status code: 200 (OK)
+    *   headers: None
+    *   body: JSON response with single user
+*   Request Body: None
+*   Request Options: None
+
+#### POST /users
+
+*   Method: POST
+*   URL: `https://api.example.com/users`
+*   Response:
+    *   status code: 201 (Created)
+    *   headers: Content-Type: application/json
+    *   body: JSON response with newly created user
+*   Request Body: `{ "name": "New User" }`
+
+#### PATCH /users/:id
+
+*   Method: PATCH
+*   URL: `https://api.example.com/users/{id}`
+*   Response:
+    *   status code: 200 (OK)
+    *   headers: None
+    *   body: JSON response with updated user
+*   Request Body: `{ "name": "Updated User" }`
+
+#### DELETE /users/:id
+
+*   Method: DELETE
+*   URL: `https://api.example.com/users/{id}`
+*   Response:
+    *   status code: 204 (No Content)
+    *   headers: None
+    *   body: null
